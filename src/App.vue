@@ -2,14 +2,19 @@
 import BarraGobierno from './components/BarraGobierno.vue'
 import EncabezadoInstitucional from './components/EncabezadoInstitucional.vue'
 import NavPrincipal from './components/NavPrincipal.vue'
+import BuscadorModal from './components/BuscadorModal.vue'
 import { useScrollObserver } from './composables/useScrollObserver.js'
+import { ref } from 'vue'
+
+const buscadorAbierto = ref(false)
 
 useScrollObserver()
 </script>
 
 <template>
   <BarraGobierno />
-  <EncabezadoInstitucional />
+  <EncabezadoInstitucional @abrir-buscador="buscadorAbierto = true" />
   <NavPrincipal />
+  <BuscadorModal v-model="buscadorAbierto" />
   <main></main>
 </template>

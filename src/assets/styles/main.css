@@ -1019,3 +1019,18 @@ ul { list-style: none; }
   box-shadow: var(--sombra-md);
   max-width: 100%;
 }
+
+/* --------------------------------------------------------------------------
+   Sitios de interes
+   -------------------------------------------------------------------------- */
+.sitio-logo {
+  height: 44px;
+  opacity: 0.5;
+  filter: grayscale(100%);
+  transition: all var(--transicion);
+}
+
+.sitio-logo:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+}

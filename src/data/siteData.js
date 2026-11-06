@@ -129,6 +129,14 @@ export const documentos = [
   { nombre: 'PRODEP - Que es el S247', href: 'pdf/PRODEP/QUE ES EL S247 2025.pdf' }
 ]
 
+export const sitiosInteres = [
+  { nombre: 'CONAHCYT', href: 'https://www.conacyt.gob.mx/', img: 'img/interes/CONACYT.png' },
+  { nombre: 'CONRICYT', href: 'https://www.conricyt.mx/', img: 'img/interes/CONRICYT.png' },
+  { nombre: 'INAI', href: 'http://www.ifai.org.mx/', img: 'img/interes/INAI.png' },
+  { nombre: 'Gobierno de Zacatecas', href: 'https://www.zacatecas.gob.mx/', img: 'img/logos/logozac.jpg' },
+  { nombre: 'TecNM', href: 'https://www.tecnm.mx/', img: 'img/logos/tecnm.jpg' }
+]
+
 export const heroSlides = [
   {
     etiqueta: 'Convocatoria Abierta',

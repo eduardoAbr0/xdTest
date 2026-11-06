@@ -93,6 +93,13 @@ export const heroSlides = [
   }
 ]
 
+export const cifras = [
+  { numero: '5', label: 'Programas Academicos' },
+  { numero: '1', label: 'Posgrado' },
+  { numero: '+20', label: 'Anos de Trayectoria' },
+  { numero: 'ED', label: 'Educacion a Distancia' }
+]
+
 export const barraGobierno = {
   logo: 'https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg',
   enlaces: [

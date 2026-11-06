@@ -100,6 +100,34 @@ export const cifras = [
   { numero: 'ED', label: 'Educacion a Distancia' }
 ]
 
+export const noticiaDestacada = {
+  href: 'pdf/convocatorias/licenciaturaEscolarizada.pdf',
+  tag: 'Convocatoria',
+  titulo: 'Convocatoria Escolarizada 2026',
+  texto: 'Se abre el periodo de inscripciones para todas las carreras de licenciatura e ingenieria en modalidad escolarizada.',
+  fecha: 'Marzo 2026',
+  icono: 'documento'
+}
+
+export const noticiasSecundarias = [
+  {
+    href: '#',
+    tag: 'Aviso',
+    titulo: 'Encuesta Estudiantes de Nuevo Ingreso',
+    fecha: 'Marzo 2026',
+    icono: 'reloj',
+    variante: 'dorado'
+  },
+  {
+    href: '#',
+    tag: 'Institucional',
+    titulo: 'Violentometro - Espacios Libres de Violencia',
+    fecha: '2026',
+    icono: 'escudo',
+    variante: 'gris'
+  }
+]
+
 export const barraGobierno = {
   logo: 'https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg',
   enlaces: [

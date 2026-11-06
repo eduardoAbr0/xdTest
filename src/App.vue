@@ -5,6 +5,7 @@ import NavPrincipal from './components/NavPrincipal.vue'
 import BuscadorModal from './components/BuscadorModal.vue'
 import HeroSlider from './components/HeroSlider.vue'
 import CifrasRapidas from './components/CifrasRapidas.vue'
+import SeccionNoticias from './components/SeccionNoticias.vue'
 import { useScrollObserver } from './composables/useScrollObserver.js'
 import { ref } from 'vue'
 
@@ -21,5 +22,6 @@ useScrollObserver()
   <main>
     <HeroSlider />
     <CifrasRapidas />
+    <SeccionNoticias />
   </main>
 </template>

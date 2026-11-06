@@ -1,5 +1,6 @@
 <script setup>
 import BarraGobierno from './components/BarraGobierno.vue'
+import EncabezadoInstitucional from './components/EncabezadoInstitucional.vue'
 import { useScrollObserver } from './composables/useScrollObserver.js'
 
 useScrollObserver()
@@ -7,5 +8,6 @@ useScrollObserver()
 
 <template>
   <BarraGobierno />
+  <EncabezadoInstitucional />
   <main></main>
 </template>

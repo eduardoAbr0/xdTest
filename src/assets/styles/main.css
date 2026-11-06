@@ -854,3 +854,80 @@ ul { list-style: none; }
   .noticias-grid { grid-template-columns: 1fr; }
   .noticia-destacada { grid-row: auto; }
 }
+
+/* --------------------------------------------------------------------------
+   Oferta educativa
+   -------------------------------------------------------------------------- */
+.carrera-card {
+  background: var(--blanco);
+  border-radius: var(--radio);
+  overflow: hidden;
+  box-shadow: var(--sombra-sm);
+  border: 1px solid var(--gris-200);
+  transition: all var(--transicion);
+  display: flex;
+  flex-direction: column;
+}
+
+.carrera-card:hover {
+  box-shadow: var(--sombra-lg);
+  transform: translateY(-4px);
+  border-color: var(--azul-claro);
+}
+
+.carrera-card__icono {
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--blanco);
+  position: relative;
+  overflow: hidden;
+}
+
+.carrera-card__icono::after {
+  content: '';
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 50%;
+  top: -60px;
+  right: -60px;
+}
+
+.carrera-card__body {
+  padding: 24px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.carrera-card__nombre {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--azul);
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.carrera-card__desc {
+  font-size: 14px;
+  color: var(--gris-700);
+  line-height: 1.5;
+  flex: 1;
+}
+
+.carrera-card__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--azul);
+  transition: gap var(--transicion);
+}
+
+.carrera-card:hover .carrera-card__link { gap: 10px; color: var(--azul-claro); }

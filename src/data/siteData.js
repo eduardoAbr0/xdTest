@@ -66,6 +66,51 @@ export const menuItems = [
   }
 ]
 
+export const carreras = [
+  {
+    nombre: 'Ingenieria en Sistemas Computacionales',
+    descripcion: 'Desarrollo de software, redes, bases de datos e inteligencia artificial.',
+    href: 'ISC.html',
+    icono: 'code',
+    tema: 'azul'
+  },
+  {
+    nombre: 'Ingenieria en Mecatronica',
+    descripcion: 'Automatizacion, robotica, electronica y sistemas de control.',
+    href: 'IM.html',
+    icono: 'gear',
+    tema: 'azul-claro'
+  },
+  {
+    nombre: 'Ingenieria en Industrias Alimentarias',
+    descripcion: 'Procesamiento, conservacion y calidad de alimentos.',
+    href: 'IIA.html',
+    icono: 'layers',
+    tema: 'azul-oscuro'
+  },
+  {
+    nombre: 'Licenciatura en Administracion',
+    descripcion: 'Gestion empresarial, finanzas, mercadotecnia y capital humano.',
+    href: 'LA.html',
+    icono: 'monitor',
+    tema: 'oscuro'
+  },
+  {
+    nombre: 'Contador Publico',
+    descripcion: 'Contabilidad, auditoria, fiscal y gestion financiera.',
+    href: 'CP.html',
+    icono: 'dollar',
+    tema: 'azul'
+  },
+  {
+    nombre: 'Posgrado',
+    descripcion: 'Maestria en Ingenieria Industrial con reconocimiento CONAHCYT.',
+    href: 'Pos.html',
+    icono: 'graduation',
+    tema: 'dorado'
+  }
+]
+
 export const heroSlides = [
   {
     etiqueta: 'Convocatoria Abierta',

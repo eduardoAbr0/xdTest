@@ -111,6 +111,15 @@ export const carreras = [
   }
 ]
 
+export const servicios = [
+  { nombre: 'Control Escolar', href: 'http://itscontrol2.ddns.net/cloud/site/login.do', icono: 'grid', external: true },
+  { nombre: 'Correo Institucional', href: 'https://login.microsoftonline.com/?whr=tecnm.mx', icono: 'mail', external: true },
+  { nombre: 'SGI-3', href: 'http://calidad3.ddns.net/sgi-3', icono: 'login', external: true },
+  { nombre: 'E-Libro', href: 'https://elibro.net/es/lc/jerez/login_usuario/', icono: 'book', external: true },
+  { nombre: 'Revistas T&F', href: 'https://www.tandfonline.com/', icono: 'books', external: true },
+  { nombre: 'Educacion a Distancia', href: 'https://educacionadistanciatecjerez.com', icono: 'globe', external: true }
+]
+
 export const heroSlides = [
   {
     etiqueta: 'Convocatoria Abierta',

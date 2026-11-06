@@ -931,3 +931,35 @@ ul { list-style: none; }
 }
 
 .carrera-card:hover .carrera-card__link { gap: 10px; color: var(--azul-claro); }
+
+/* --------------------------------------------------------------------------
+   Servicios rapidos
+   -------------------------------------------------------------------------- */
+.servicio {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 20px;
+  background: var(--blanco);
+  border-radius: var(--radio);
+  border: 1px solid var(--gris-200);
+  transition: all var(--transicion);
+}
+
+.servicio:hover { border-color: var(--dorado); background: var(--dorado-claro); }
+
+.servicio__icono {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--azul);
+  color: var(--blanco);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.servicio:hover .servicio__icono { background: var(--azul-oscuro); }
+
+.servicio__nombre { font-size: 14px; font-weight: 600; color: var(--gris-900); }

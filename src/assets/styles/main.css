@@ -154,3 +154,37 @@ ul { list-style: none; }
 .tema-azul-oscuro { background: linear-gradient(135deg, #1B396A 0%, #122847 100%); }
 .tema-oscuro { background: linear-gradient(135deg, #122847 0%, #2A5298 100%); }
 .tema-dorado { background: linear-gradient(135deg, #C9A227 0%, #A88420 100%); }
+
+/* --------------------------------------------------------------------------
+   Barra de Gobierno
+   -------------------------------------------------------------------------- */
+.barra-gob {
+  background: var(--verde-gob);
+  height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.barra-gob a { display: flex; align-items: center; }
+.barra-gob img { height: 20px; }
+
+.barra-gob__derecha {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.barra-gob__link {
+  color: var(--blanco);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  opacity: 0.9;
+}
+
+.barra-gob__link:hover { opacity: 1; }

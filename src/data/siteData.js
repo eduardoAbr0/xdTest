@@ -1,3 +1,71 @@
+export const menuItems = [
+  {
+    label: 'Conocenos',
+    children: [
+      { label: 'Nuestra Historia', href: 'pdf/Historia1.pdf', external: true },
+      { label: 'Mision y Vision', href: '#' },
+      { label: 'Directorio', href: '#' },
+      { label: 'Objetivos Institucionales', href: 'pdf/OBJETIVOS-INSTITUCIONALES-Y-DE-CARRERAS-1.pdf', external: true }
+    ]
+  },
+  {
+    label: 'Oferta Educativa',
+    children: [
+      { label: 'Ing. en Sistemas Computacionales', href: 'ISC.html' },
+      { label: 'Ing. en Industrias Alimentarias', href: 'IIA.html' },
+      { label: 'Ing. en Mecatronica', href: 'IM.html' },
+      { label: 'Lic. en Administracion', href: 'LA.html' },
+      { label: 'Contador Publico', href: 'CP.html' },
+      { label: 'Posgrado', href: 'Pos.html' },
+      { label: 'Educacion a Distancia', href: 'https://educacionadistanciatecjerez.com', external: true }
+    ]
+  },
+  {
+    label: 'Alumnos',
+    children: [
+      { label: 'Control Escolar', href: 'http://itscontrol2.ddns.net/cloud/site/login.do', external: true },
+      { label: 'Evaluacion Docente', href: '#' },
+      { label: 'E-Libro', href: 'https://elibro.net/es/lc/jerez/login_usuario/', external: true },
+      { label: 'Revistas Taylor & Francis', href: 'https://www.tandfonline.com/', external: true }
+    ]
+  },
+  {
+    label: 'Servicios Escolares',
+    children: [
+      { label: 'Inscripcion Nuevo Ingreso', href: 'pdf/Escolares/1. Requisitos inscripcion nuevo ingreso-1.pdf', external: true },
+      { label: 'Constancia o Kardex', href: 'pdf/Escolares/2. Solicitud constancia o kardex.pdf', external: true },
+      { label: 'Guia de Acceso a Control Escolar', href: 'pdf/Escolares/GUIA-ACCESO-CIE-H-ESTUDIANTES-2-1.pdf', external: true },
+      { label: 'Certificado Parcial o Total', href: 'pdf/Escolares/4. Requisitos para certificado parcial o total.pdf', external: true },
+      { label: 'Cedula Electronica', href: 'pdf/Escolares/7. Requisitos cedula electronica.pdf', external: true },
+      { label: 'Acto Recepcional Licenciatura', href: 'pdf/Escolares/5. Requisitos acto recepcional licenciatura.pdf', external: true },
+      { label: 'Acto Recepcional Posgrado', href: 'pdf/Escolares/6. Requisitos acto recepcional posgrado.pdf', external: true }
+    ]
+  },
+  {
+    label: 'Convocatorias',
+    children: [
+      { label: 'Convocatoria Escolarizada 2026', href: 'pdf/convocatorias/licenciaturaEscolarizada.pdf', external: true }
+    ]
+  },
+  {
+    label: 'Transparencia',
+    children: [
+      { label: 'Aviso de Privacidad Integral', href: 'pdf/Transparencia/Aviso_de_Privacidad_Integral_ITSJ.pdf', external: true },
+      { label: 'Aviso de Privacidad Simplificado', href: 'pdf/Transparencia/Aviso_de_privacidad_Simplificado_ITSJ.pdf', external: true },
+      { label: 'Cuenta Publica', href: '#' }
+    ]
+  },
+  {
+    label: 'Lineamientos',
+    children: [
+      { label: 'Reglamento General', href: 'pdf/Lineamientos/Reglamento_General.pdf', external: true },
+      { label: 'Titulacion Integral', href: 'pdf/Lineamientos/Titulacion_Integral,pdf', external: true },
+      { label: 'Movilidad Estudiantil', href: 'pdf/Lineamientos/Movilidad_Estudiantil.pdf', external: true },
+      { label: 'Residencia Profesional', href: 'pdf/Lineamientos/Operacion_y_Acreditacion_de_la_Residencia_Profesional.pdf', external: true }
+    ]
+  }
+]
+
 export const barraGobierno = {
   logo: 'https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg',
   enlaces: [

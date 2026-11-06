@@ -231,3 +231,25 @@ export const redesIntegradas = [
     permitir: 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
   }
 ]
+
+export const footer = {
+  direccion: ['Libramiento Fresnillo-Tepetongo S/N', 'C.P. 99361, Campus Jerez', 'Jerez, Zacatecas, Mexico'],
+  telefono: '4949451226',
+  telefonoTexto: '494 945 1226',
+  email: 'dir_jerez@tecnm.mx',
+  actualizacion: 'Marzo 2026',
+  redes: [
+    { nombre: 'Facebook', href: 'https://www.facebook.com/tecjerez', texto: 'f' },
+    { nombre: 'Twitter', href: 'https://twitter.com/TecNM_MX', texto: 'X' },
+    { nombre: 'YouTube', href: 'https://youtube.com', texto: '\u25B6' }
+  ],
+  enlaces: [
+    { label: 'Portal de Transparencia', href: 'http://portaltransparencia.gob.mx/buscador/search/search.do?method=begin', external: true },
+    { label: 'INAI', href: 'http://inicio.ifai.org.mx/SitePages/ifai.aspx', external: true },
+    { label: 'Aviso de Privacidad', href: 'https://www.gob.mx/cms/uploads/attachment/file/328462/Proyecto_Aviso_Privacidad_TecNM_16052018.pdf', external: true },
+    { label: 'Buzon de Sugerencias', href: 'mailto:dir_jerez@tecnm.mx' },
+    { label: 'Reglamento General', href: 'pdf/Lineamientos/Reglamento_General.pdf', external: true }
+  ],
+  mapa: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.927234415429!2d-103.02008722590973!3d22.656501479432062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8682eff731000001%3A0x791d2db6559b9fd!2sINSTITUTO%20TECNOLOGICO%20SUPERIOR%20DE%20JEREZ!5e0!3m2!1ses!2smx!4v1686843791062!5m2!1ses!2smx',
+  privacidad: 'https://www.gob.mx/cms/uploads/attachment/file/328462/Proyecto_Aviso_Privacidad_TecNM_16052018.pdf'
+}

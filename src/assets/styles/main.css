@@ -1,0 +1,76 @@
+/* ==========================================================================
+   TecNM Campus Jerez - Hoja de estilos principal
+   Bootstrap se importa antes que este archivo (ver src/main.js).
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Base
+   -------------------------------------------------------------------------- */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl, figure, blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol { padding-left: 0; }
+
+:root {
+  --azul: #1B396A;
+  --azul-oscuro: #122847;
+  --azul-claro: #2A5298;
+  --blanco: #FFFFFF;
+  --gris-100: #F7F8FA;
+  --gris-200: #E8ECF1;
+  --gris-300: #D1D8E3;
+  --gris-500: #8494A7;
+  --gris-700: #4A5568;
+  --gris-900: #1A202C;
+  --dorado: #C9A227;
+  --dorado-claro: #F5E6B8;
+  --rojo-gob: #9E1B32;
+  --verde-gob: #006847;
+  --sombra-sm: 0 1px 3px rgba(27,57,106,0.08);
+  --sombra-md: 0 4px 16px rgba(27,57,106,0.10);
+  --sombra-lg: 0 8px 32px rgba(27,57,106,0.14);
+  --radio: 6px;
+  --transicion: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  --max-ancho: 1280px;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Source Sans 3', -apple-system, sans-serif;
+  color: var(--gris-900);
+  background: var(--blanco);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+html, body, #app {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+section,
+div,
+header,
+nav,
+main,
+footer {
+  min-width: 0;
+}
+
+a { text-decoration: none; color: inherit; transition: color var(--transicion); }
+img { max-width: 100%; height: auto; display: block; }
+ul { list-style: none; }

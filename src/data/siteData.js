@@ -66,6 +66,33 @@ export const menuItems = [
   }
 ]
 
+export const heroSlides = [
+  {
+    etiqueta: 'Convocatoria Abierta',
+    titulo: 'Inscripciones Escolarizadas 2026',
+    subtitulo: 'Forma parte de la comunidad TecNM Campus Jerez. Ofrecemos programas de licenciatura e ingenieria con calidad educativa.',
+    cta: 'Ver convocatoria',
+    href: 'pdf/convocatorias/licenciaturaEscolarizada.pdf',
+    tema: 'azul'
+  },
+  {
+    etiqueta: 'Posgrado',
+    titulo: 'Maestria en Ingenieria Industrial',
+    subtitulo: 'Impulsa tu carrera profesional con nuestro programa de posgrado reconocido por CONAHCYT.',
+    cta: 'Conocer mas',
+    href: 'Pos.html',
+    tema: 'oscuro'
+  },
+  {
+    etiqueta: 'Modelo Educativo',
+    titulo: 'Tecnologia y Calidad para la Vida',
+    subtitulo: 'Educacion integral con enfoque en innovacion, emprendimiento y desarrollo sustentable.',
+    cta: 'Explorar',
+    href: 'https://www.tecnm.mx/',
+    tema: 'azul-claro'
+  }
+]
+
 export const barraGobierno = {
   logo: 'https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg',
   enlaces: [

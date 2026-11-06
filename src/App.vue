@@ -3,6 +3,7 @@ import BarraGobierno from './components/BarraGobierno.vue'
 import EncabezadoInstitucional from './components/EncabezadoInstitucional.vue'
 import NavPrincipal from './components/NavPrincipal.vue'
 import BuscadorModal from './components/BuscadorModal.vue'
+import HeroSlider from './components/HeroSlider.vue'
 import { useScrollObserver } from './composables/useScrollObserver.js'
 import { ref } from 'vue'
 
@@ -16,5 +17,7 @@ useScrollObserver()
   <EncabezadoInstitucional @abrir-buscador="buscadorAbierto = true" />
   <NavPrincipal />
   <BuscadorModal v-model="buscadorAbierto" />
-  <main></main>
+  <main>
+    <HeroSlider />
+  </main>
 </template>

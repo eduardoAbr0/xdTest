@@ -6,3 +6,7 @@ dist
 !.vscode/extensions.json
 .env
 .env.*
+# public/: se conservan las carpetas, pero no los archivos
+public/**
+!public/**/
+!public/**/.gitkeep

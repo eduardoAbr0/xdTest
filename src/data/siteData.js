@@ -120,6 +120,15 @@ export const servicios = [
   { nombre: 'Educacion a Distancia', href: 'https://educacionadistanciatecjerez.com', icono: 'globe', external: true }
 ]
 
+export const documentos = [
+  { nombre: 'Codigo de Etica', href: 'pdf/anexos/SFP-CE-2019_Codigo_de_Etica.pdf' },
+  { nombre: 'Pronunciamiento de no Discriminacion', href: 'pdf/anexos/Pronunciamiento.pdf' },
+  { nombre: 'Protocolo de Prevencion', href: 'pdf/anexos/Protocolo_HSyAS.pdf' },
+  { nombre: 'Estrategias de Austeridad', href: 'pdf/anexos/estrategias_austeridad.pdf' },
+  { nombre: 'Decreto de Creacion TecNM', href: 'pdf/anexos/decreto_tecnm.pdf' },
+  { nombre: 'PRODEP - Que es el S247', href: 'pdf/PRODEP/QUE ES EL S247 2025.pdf' }
+]
+
 export const heroSlides = [
   {
     etiqueta: 'Convocatoria Abierta',

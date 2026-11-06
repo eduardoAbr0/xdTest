@@ -8,6 +8,7 @@ import CifrasRapidas from './components/CifrasRapidas.vue'
 import SeccionNoticias from './components/SeccionNoticias.vue'
 import OfertaEducativa from './components/OfertaEducativa.vue'
 import ServiciosRapidos from './components/ServiciosRapidos.vue'
+import DocumentosNormatividad from './components/DocumentosNormatividad.vue'
 import { useScrollObserver } from './composables/useScrollObserver.js'
 import { ref } from 'vue'
 
@@ -27,5 +28,6 @@ useScrollObserver()
     <SeccionNoticias />
     <OfertaEducativa />
     <ServiciosRapidos />
+    <DocumentosNormatividad />
   </main>
 </template>

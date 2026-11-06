@@ -210,3 +210,16 @@ export const encabezado = {
   subtitulo: 'Tecnologico Nacional de Mexico',
   correo: 'https://login.microsoftonline.com/?whr=tecnm.mx'
 }
+
+export const redesIntegradas = [
+  {
+    titulo: 'Facebook TecNM Campus Jerez',
+    src: 'https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftecjerez&tabs=timeline&width=400&height=480&small_header=true',
+    permitir: 'encrypted-media'
+  },
+  {
+    titulo: 'YouTube TecNM Campus Jerez',
+    src: 'https://www.youtube.com/embed/FUXHgEbG9O4?si=Q4DTv4tTu7yZPF6d',
+    permitir: 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+  }
+]

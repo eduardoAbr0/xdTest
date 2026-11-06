@@ -1009,3 +1009,13 @@ ul { list-style: none; }
 }
 
 .convocatoria:hover .convocatoria__flecha { color: var(--azul); }
+
+/* --------------------------------------------------------------------------
+   Redes sociales
+   -------------------------------------------------------------------------- */
+.redes-embed {
+  border: none;
+  border-radius: var(--radio);
+  box-shadow: var(--sombra-md);
+  max-width: 100%;
+}

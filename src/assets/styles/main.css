@@ -74,3 +74,83 @@ footer {
 a { text-decoration: none; color: inherit; transition: color var(--transicion); }
 img { max-width: 100%; height: auto; display: block; }
 ul { list-style: none; }
+
+/* --------------------------------------------------------------------------
+   Utilidades
+   -------------------------------------------------------------------------- */
+.seccion {
+  padding: 72px 24px;
+}
+
+.seccion--gris { background: var(--gris-100); }
+
+.seccion__inner {
+  max-width: var(--max-ancho);
+  margin: 0 auto;
+}
+
+.seccion__header { margin-bottom: 48px; }
+
+.seccion__header--centrado { text-align: center; }
+
+.seccion__header--centrado .seccion__linea {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.seccion__etiqueta {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--dorado);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.seccion__titulo {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--azul);
+  line-height: 1.2;
+}
+
+.seccion__linea {
+  width: 48px;
+  height: 3px;
+  background: var(--dorado);
+  margin-top: 16px;
+  border-radius: 2px;
+}
+
+.btn-accion {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: var(--radio);
+  font-size: 13px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all var(--transicion);
+}
+
+/* Animaciones de entrada */
+.animado {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.animado.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Temas de color reutilizables (carreras y hero) */
+.tema-azul { background: linear-gradient(135deg, #1B396A 0%, #2A5298 100%); }
+.tema-azul-claro { background: linear-gradient(135deg, #2A5298 0%, #1B396A 100%); }
+.tema-azul-oscuro { background: linear-gradient(135deg, #1B396A 0%, #122847 100%); }
+.tema-oscuro { background: linear-gradient(135deg, #122847 0%, #2A5298 100%); }
+.tema-dorado { background: linear-gradient(135deg, #C9A227 0%, #A88420 100%); }

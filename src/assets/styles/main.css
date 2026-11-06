@@ -1118,3 +1118,10 @@ ul { list-style: none; }
 }
 
 .barra-gob-footer img { height: 28px; margin: 0 auto; }
+
+/* --------------------------------------------------------------------------
+   Responsive general
+   -------------------------------------------------------------------------- */
+@media (max-width: 767.98px) {
+  .seccion { padding: 48px 16px; }
+}

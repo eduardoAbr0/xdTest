@@ -12,6 +12,7 @@ import DocumentosNormatividad from './components/DocumentosNormatividad.vue'
 import RedesSociales from './components/RedesSociales.vue'
 import SitiosInteres from './components/SitiosInteres.vue'
 import FooterInstitucional from './components/FooterInstitucional.vue'
+import BarraGobFooter from './components/BarraGobFooter.vue'
 import { useScrollObserver } from './composables/useScrollObserver.js'
 import { ref } from 'vue'
 
@@ -36,4 +37,5 @@ useScrollObserver()
     <SitiosInteres />
   </main>
   <FooterInstitucional />
+  <BarraGobFooter />
 </template>
